@@ -1,0 +1,2 @@
+git config --global user.name "Sibi95";
+git config --global user.email "sibistephenthomas95@gmail.com";
