@@ -1,0 +1,9 @@
+<div *ngFor="let data of playerData">
+    <p>ID : {{data.id}}</p>
+    <p>Name : {{data.playerName}}</p>
+    <p>Age :{{data.age}}</p>
+    <p>File Name :{{data.fileName}}</p>
+    <p>File Type: {{data.fileType}}</p>
+    <img [src]="data.image | base64: data.fileType" >
+
+</div>
