@@ -16,7 +16,7 @@ public class Player {
 	private String playerName;
 	private int age;
 	@Lob
-	@Column(columnDefinition = "BLOB")
+	@Column(columnDefinition = "LONGBLOB")
 	private String image;
 	private String fileName;
 	private String fileType;
